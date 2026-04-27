@@ -49,47 +49,6 @@ on property prices.
 
 ---
 
-## Mathematical Foundation
-
-### One-Way ANOVA
-
-- Total Variation:
-  \[
-  SST = \sum (x_{ij} - \bar{x})^2
-  \]
-
-- Between-Group Variation:
-  \[
-  SSB = \sum n_j (\bar{x}_j - \bar{x})^2
-  \]
-
-- Within-Group Variation:
-  \[
-  SSW = \sum (x_{ij} - \bar{x}_j)^2
-  \]
-
-- F-Statistic:
-  \[
-  F = \frac{MSB}{MSW}
-  \]
-
----
-
-### Two-Way ANOVA
-
-Model:
-
-\[
-X_{ijk} = \mu + \alpha_i + \beta_j + \epsilon_{ijk}
-\]
-
-Where:
-- \( \mu \) = overall mean  
-- \( \alpha_i \) = city effect  
-- \( \beta_j \) = property type effect  
-
----
-
 ##  Key Results
 
 - Property prices **differ significantly across cities**
