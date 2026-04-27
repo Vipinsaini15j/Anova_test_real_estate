@@ -43,6 +43,32 @@ Used to evaluate the combined effect of:
 on property prices.
 
 ---
+## Mathematical Foundation
+
+### One-Way ANOVA
+
+Total Variation:
+
+
+```
+SST = Σ(xᵢⱼ - x̄)²
+```
+
+Between-Group Variation:
+```
+SSB = Σ nⱼ (x̄ⱼ - x̄)²
+```
+
+Within-Group Variation:
+```
+SSW = Σ (xᵢⱼ - x̄ⱼ)²
+```
+
+F-statistic:
+```
+F = MSB / MSW
+```
+
 ##  Key Results
 
 - Property prices **differ significantly across cities**
