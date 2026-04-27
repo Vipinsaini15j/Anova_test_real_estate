@@ -69,6 +69,20 @@ F-statistic:
 F = MSB / MSW
 ```
 
+---
+
+### Two-Way ANOVA Model
+```
+Xᵢⱼₖ = μ + αᵢ + βⱼ + εᵢⱼₖ
+```
+Where:
+- μ = overall mean  
+- αᵢ = city effect  
+- βⱼ = property type effect  
+- εᵢⱼₖ = random error  
+
+---
+
 ##  Key Results
 
 - Property prices **differ significantly across cities**
@@ -76,20 +90,20 @@ F = MSB / MSW
 - Property type also influences price variation
 
 ---
-##Visualizations
+## Visualizations
 
 - Boxplots showing price distribution across cities  
 - Mean comparison plots  
 
 ---
-##Key Insights
+## Key Insights
 
 - Location is a major determinant of real estate pricing  
 - Different cities exhibit distinct pricing trends  
 - Multiple factors contribute to housing price variation  
 
 ---
-##Tech Stack
+## Tech Stack
 
 - Python  
 - Pandas  
@@ -97,7 +111,7 @@ F = MSB / MSW
 - Matplotlib  
 
 ---
-##Special Highlights
+## Special Highlights
 
 ✔ Implemented ANOVA from scratch  
 ✔ No use of statistical libraries  
@@ -110,3 +124,33 @@ F = MSB / MSW
 ## How to Run
 
 1. Clone the repository:
+```
+```
+
+2. Install dependencies:
+```
+pip install -r requirements.txt
+```
+
+3. Run the notebook:
+```
+jupyter notebook
+```
+---
+
+
+## Conclusion
+
+- Property prices vary significantly across cities  
+- Location is a major factor in real estate pricing  
+- Property type also influences price variation  
+
+---
+
+##  Author
+
+Vipin Saini
+
+---
+
+
