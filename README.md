@@ -125,6 +125,8 @@ Where:
 
 1. Clone the repository:
 ```
+git clone https://github.com/Vipinsaini15j/Anova_test_real_estate.git
+cd Anova_test_real_estate 
 ```
 
 2. Install dependencies:
