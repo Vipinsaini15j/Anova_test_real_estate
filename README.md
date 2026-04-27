@@ -1,5 +1,4 @@
 # ANOVA Analysis on Real Estate Data
-
 ##  Project Overview
 
 This project performs statistical analysis on real estate data across multiple Indian cities to determine whether **property prices differ significantly based on location and property characteristics**.
@@ -7,7 +6,6 @@ This project performs statistical analysis on real estate data across multiple I
 The entire analysis is implemented **from scratch without using statistical libraries**, demonstrating a deep understanding of statistical concepts such as variance decomposition and hypothesis testing.
 
 ---
-
 ##Objectives
 
 - Determine whether **property prices differ across cities**
@@ -34,12 +32,9 @@ The dataset includes housing data from:
 - `CITY`  
 
 ---
-
 ##Methodology
-
 ### 🔹 One-Way ANOVA
 Used to test whether the mean property prices differ across cities.
-
 ### 🔹 Two-Way ANOVA
 Used to evaluate the combined effect of:
 - City
@@ -48,7 +43,6 @@ Used to evaluate the combined effect of:
 on property prices.
 
 ---
-
 ##  Key Results
 
 - Property prices **differ significantly across cities**
@@ -56,14 +50,12 @@ on property prices.
 - Property type also influences price variation
 
 ---
-
 ##Visualizations
 
 - Boxplots showing price distribution across cities  
 - Mean comparison plots  
 
 ---
-
 ##Key Insights
 
 - Location is a major determinant of real estate pricing  
@@ -71,7 +63,6 @@ on property prices.
 - Multiple factors contribute to housing price variation  
 
 ---
-
 ##Tech Stack
 
 - Python  
@@ -80,7 +71,6 @@ on property prices.
 - Matplotlib  
 
 ---
-
 ##Special Highlights
 
 ✔ Implemented ANOVA from scratch  
